@@ -124,19 +124,19 @@ int main(void)
 		  "Graphics Library",
 		  AUTO_STRING_LENGTH,
 		  1,
-		  35,
+		  31,
 		  TRANSPARENT_TEXT);
   Graphics_drawString(&g_sContext,
 		  "from MSP430",
 		  AUTO_STRING_LENGTH,
 		  1,
-		  51,
+		  47,
 		  TRANSPARENT_TEXT);
   Graphics_drawString(&g_sContext,
 		  "to STM32F030R8",
 		  AUTO_STRING_LENGTH,
 		  1,
-		  75,
+		  63,
 		  TRANSPARENT_TEXT);
 
   // Flush Buffer to LCD
