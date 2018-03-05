@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/isp40/OneDrive/TrueStudio_projects/stm32_mspgrlib_sharp96x96/Inc
+HeaderPath=C:/Users/isp40/Documents/GUI/stm32_mspgrlib_sharp96x96/Inc
 HeaderFiles=gpio.h;spi.h;usart.h;stm32f0xx_it.h;stm32f0xx_hal_conf.h;main.h;
-SourcePath=C:/Users/isp40/OneDrive/TrueStudio_projects/stm32_mspgrlib_sharp96x96/Src
+SourcePath=C:/Users/isp40/Documents/GUI/stm32_mspgrlib_sharp96x96/Src
 SourceFiles=gpio.h;spi.h;usart.h;stm32f0xx_it.h;stm32f0xx_hal_conf.h;main.h;gpio.c;spi.c;usart.c;stm32f0xx_it.c;stm32f0xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]
