@@ -31,20 +31,20 @@
  * --/COPYRIGHT--*/
 //*****************************************************************************
 //
-// HAL_MSP-EXP430FR4133_Sharp96x96.h - Prototypes for the Sharp96x96
+// HAL_MSP_GRLIB_STM32F030x8_Sharp96x96.h - Prototypes for the Sharp96x96
 //                  LCD display driver. There is no output from Sharp96x96 LCD
 //
-//                   MSP430FR4133                 LCD Sharp96x96
+//                   STM32F030R8                 LCD Sharp96x96
 //                -----------------             -----------------
-//               |     P5.1/UCB0CLK|---------> |SPI_CLK  EXT_MODE|--GND
+//               |     PB3/SPI_SCLK|---------> |SPI_CLK  EXT_MODE|--GND
 //            /|\|                 |           |                 |
-//             | |    P5.2/UCB0SIMO|---------> |SPI_SI   EXTCOMIN|--GND
+//             | |     PA7/SPI_MOSI|---------> |SPI_SI   EXTCOMIN|--GND
 //             --|RST              |           |                 |
-//               |             P8.0|---------> |SPI_CS           |
+//               |              PB0|---------> |SPI_CS           |
 //               |                 |		   |                 |
-//               |             P2.7|---------> |DISP             |
+//               |              PC1|---------> |DISP             |
 //               |                 |		   |                 |
-//               |             P8.1|-----*---> |VDD              |
+//               |              PC0|-----*---> |VDD              |
 //               |                 |      `--> |VDDA             |
 //               |                 |            -----------------
 //                -----------------
