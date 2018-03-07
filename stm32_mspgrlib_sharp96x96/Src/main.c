@@ -102,8 +102,6 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
   Sharp96x96_enable();
-  HAL_GPIO_WritePin(GPIOC, LCD_POWER_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(GPIOC, LCD_DISP_Pin, GPIO_PIN_SET);
   Graphics_initContext(&g_sContext, &g_sharp96x96LCD);
   Graphics_setForegroundColor(&g_sContext, ClrBlack);
   Graphics_setBackgroundColor(&g_sContext, ClrWhite);
